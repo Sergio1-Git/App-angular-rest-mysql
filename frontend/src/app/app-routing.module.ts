@@ -4,7 +4,8 @@ import { GameFormComponent } from './site/pages/game-form/game-form.component';
 import { GameListComponent } from './site/pages/game-list/game-list.component';
 
 const routes: Routes = [
-  { path: '', component: GameListComponent },
+  { path: '', redirectTo: '/games', pathMatch: 'full' },
+  { path: 'games', component: GameListComponent },
   { path: 'form', component: GameFormComponent },
 ];
 
