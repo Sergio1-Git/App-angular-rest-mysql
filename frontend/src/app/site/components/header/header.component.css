@@ -1,0 +1,36 @@
+.Header {
+  position: fixed;
+  top: 0;
+  background: var(--primary);
+  width: 100%;
+  padding: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.Header-nav {
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  color: #fff;
+}
+
+.Header-ul {
+  list-style: none;
+}
+Interfaz en angular que conecta servicios de una api rest local y mysql como base de datos
+.Header-li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.Header-a {
+  color: #fff;
+}
